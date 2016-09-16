@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <title> coding </title>
+    </head>
+    <body>
+            <h1> Time and a button</h1>
+            <button type="button"
+                    onclick=" alert (you clicked da button)">
+        Click Me!</button>
+        
+        <h2> Current date and time</h2>
+        <script type="text/javascript">
+        now = new Date () ;
+        localtime = now.toTimeString () ;
+        utctime = now.toGMTString () ;
+        document.write("<p><strong>Local time:</strong> "
+            + localtime + "</p>");
+        document.write("<p><strong>UTC time:</strong> " + utctime
+             + "</p>");
+        hours = now.getHours() ;
+        mins = now.getMinutes () ;
+        secs = now.getSeconds () ;
+        document.write ("<h2>") ;
+        document.write (hours + ":" + mins + mins + ":" + secs) ;
+        document.write("</h2>") ;
+            
+            
+            
+            
+            
+            
+            
+            
+        </script>  
+    </body>
+</html>
